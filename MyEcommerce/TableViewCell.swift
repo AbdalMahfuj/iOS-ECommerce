@@ -18,9 +18,7 @@ class TableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-//        holderView.layer.cornerRadius = holderView.frame.size.height/5
-        
+         
         priceLabel.layer.cornerRadius = priceLabel.frame.size.height/5
     }
 
